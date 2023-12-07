@@ -1,0 +1,8 @@
+{% include "header.html" %}
+
+<ul>
+{% for f in file_list %}
+<li><a href="{{ url_for('file_get', filename=f.name) }}">{{ f.name }}</a></li>
+{% endfor %}
+</ul>
+

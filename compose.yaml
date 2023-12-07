@@ -1,0 +1,11 @@
+services:
+  uploadsvc:
+    build: .
+    ports:
+      - "5000:5000"
+    volumes:
+      - /opt/data:/opt/data
+    environment:
+      - FLASK_SECRET_KEY=ieWe2thahmi5eemoh6Iequoh
+      - FLASK_UPLOAD_PASSWORD=superpass
+      - FLASK_UPLOAD_DIR=/opt/data

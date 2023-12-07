@@ -1,0 +1,5 @@
+{% if session.get('authenticated', false) %}
+<p>
+    <a href = "{{ url_for('logout') }}">Sign out</a>
+</p>  
+{% endif %}

@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "uploadsvc"
+version = "0.1.0"
+description = ""
+authors = ["Marek Wiewiórski <marek@mwicat.com>"]
+packages = [{include = "uploadsvc", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+flask = "^2.3.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
