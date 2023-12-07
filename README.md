@@ -3,5 +3,5 @@
 ## Running
 
 ```
-docker-compose up --build
+bash run.sh
 ```
