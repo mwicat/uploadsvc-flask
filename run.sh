@@ -1,3 +1,5 @@
-#!/bin/sh
+#!/bin/bash
+
+set -Eeuo pipefail
 
 docker-compose up --build

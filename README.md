@@ -2,6 +2,12 @@
 
 ## Running
 
+```shell
+./run.sh
 ```
-bash run.sh
+
+## Push container to registry
+
+```shell
+./push_image.sh
 ```

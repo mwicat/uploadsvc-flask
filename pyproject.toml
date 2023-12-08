@@ -8,6 +8,7 @@ packages = [{include = "uploadsvc", from = "src"}]
 [tool.poetry.dependencies]
 python = "^3.8"
 flask = "^2.3.3"
+gunicorn = "^21.2.0"
 
 
 [build-system]

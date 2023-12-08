@@ -14,8 +14,8 @@ FROM build as app
 WORKDIR /app
 
 COPY ./src ./src
-COPY run.sh ./
+COPY run_app.sh ./
 
 EXPOSE 5000
 
-CMD ["/bin/sh", "run.sh"]
+CMD ["/bin/sh", "run_app.sh"]
